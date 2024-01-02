@@ -14,6 +14,6 @@ jobs:
         server: jzedward.x10host.com
         username: ${{ secrets.x10hostusername }}
         password: ${{ secrets.x10hostpassword }}
-        dry-run: true
+        dry-run: false
         server-dir: domains/jzedward.x10host.com/public_html/user/pages/
         local-dir: ./grav/user/pages/
