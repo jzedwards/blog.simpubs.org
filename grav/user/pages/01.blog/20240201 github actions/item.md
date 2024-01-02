@@ -33,10 +33,10 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: jzedward.x10host.com
-        username: ${{ secrets.x10username }}
-        password: ${{ secrets.x10password }}
+        username: ${{ secrets.x10hostusername }}
+        password: ${{ secrets.x10hostpassword }}
         dry-run: true
-        server-dir: domains/jzedward.x10hosting.com/public_html/user/pages
+        server-dir: domains/jzedward.x10hosting.com/public_html/user/pages/
         local-dir: ./grav/user/pages/
 ```
 
