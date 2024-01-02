@@ -1,0 +1,19 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: jzedward.x10host.com
+        username: ${{ secrets.x10username }}
+        password: ${{ secrets.x10usernamefreepassword }}
+        dry-run: true
+        server-dir: domains/jzedward.x10host.com/public_html/user/pages
+        local-dir: ./grav/user/pages/
