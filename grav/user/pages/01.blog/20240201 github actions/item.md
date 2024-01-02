@@ -1,7 +1,7 @@
 ---
 title: Github actions
 subtitle: ftp automagically
-date: 2000/01/01
+date: 2024/01/02
 author: John Edwards
 
 hero_classes: text-light title-h1h2 overlay-dark-gradient hero-large parallax
