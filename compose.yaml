@@ -1,0 +1,14 @@
+version: '3'
+services:
+  webserver:
+    container_name : blog_simpubs_org
+    build: .
+    ports:
+      - "8082:80"
+    volumes:
+      - ./grav:/var/www/html
+    environment:
+      - PHP_MAX_EXECUTION_TIME=300
+    command: >
+      bash -c "apache2-foreground"
+    user: "${UID}:${GID}"
