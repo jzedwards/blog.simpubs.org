@@ -1,2 +1,3 @@
 grav/cache
-grav/log
+grav/logs
+grav/backup

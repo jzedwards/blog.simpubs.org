@@ -1,0 +1,11 @@
+state: enabled
+email: jzedward@hotmail.com
+fullname: 'John Edwards'
+title: Caesar
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$6uH.eUqHS7Ovek/Nwi6t2upi9DY67Ckck8GoVRjolnC6li2arG0Si
