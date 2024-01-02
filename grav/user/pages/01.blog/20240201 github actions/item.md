@@ -15,7 +15,7 @@ taxonomy:
 ---
 The *simpubs* tech team (ie [jzedward]) have been working on how to easily edit and deploy new blog posts to this site. It is hosted on [x10], a free (as in beer) service, which only has ftp available to load content.  
 
-However, the brilliant [ftp deploy] provides a way to automagically update from a [github] repository (aka repo) to ftp. The code below is added as a *github action* to [dev.blog.simpubs.org] (which has the entire site and a Docker container script to build it) - and the action loads directly to [x10].
+However, the brilliant [ftp deploy] provides a way to automagically update from a [github] repository (aka repo) to ftp. The code below is added as a *github action* to [blog.simpubs.org] (which has the entire site and a Docker container script to build it) - and the action loads directly to [x10].
 
 **Note:** the code below has `dry-run` set to `true` so will only check differences, not load
 ```
@@ -41,7 +41,7 @@ jobs:
 ```
 
 
-[dev.blog.simpubs.org]: https://github.com/jzedwards/dev.blog.simpubs.org
+[blog.simpubs.org]: https://github.com/jzedwards/blog.simpubs.org
 [ftp deploy]: https://github.com/SamKirkland/ftp-deploy
 [x10]: https://www.x10hosting.com
 [jzedward]: https://jzedwards.github.io
