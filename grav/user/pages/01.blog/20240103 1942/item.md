@@ -25,6 +25,7 @@ taxonomy:
 {% endif %}
 {% endfor %}  
 
+[Paper Wars]: https://www.compassgames.com/product-category/paper-wars-subscriptions/?sfw=pass1704277313
 [Facebook]: https://www.facebook.com/jzedward
 [Compass]: https://www.compassgames.com/product/wwii-campaigns-1940-1941-and-1942-pay-later/
 [BGG]: https://boardgamegeek.com/boardgame/6915/1942
