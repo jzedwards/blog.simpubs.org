@@ -5,7 +5,7 @@ date: 2024/01/04
 author: John Edwards
 
 hero_classes: text-light title-h1h2 overlay-dark-gradient hero-large parallax
-hero_image: flattop-map.png
+hero_image: flattop-map-crop.png
 show_sidebar: true
 published: true 
 
