@@ -26,11 +26,11 @@ Often grey scans have variations of shading and *bleed*. [vuescan] can adjust br
 
 Finally, I am lucky to have a full Adobe subcription with Acrobat, which I use for OCR and page ordering and numbering. Frankly, given the cost of [acrobat] it's pretty annoying that the stuff that [scanpapyrus] and [sejda] does is not included.
 
-There *are* free pdftools, some of which are powerful, especially if you have command line skills eh [pdftk
+There *are* free pdftools, some of which are powerful, especially if you have command line skills eh [pdftk].
 
 Honourable (UK spelling please) mention to the totally brilliant [imagemagick] which I use every day - it is **the** most powerful tool for image manipulation, and has pdf capabilities too.
 
-Footnote, for free scanning, [naps2] is excellent, if it only had better cropping and a brightess/contrast tools it could replace [vuescan] and [scanpapyrus], if you want to make compromises, [naps2] is worth using.
+Footnote: for free scanning, [naps2] is excellent, if it only had better cropping and a brightess/contrast tools it could replace [vuescan] and [scanpapyrus], if you want to make compromises, [naps2] is worth using.
 
 [simpubs]: https://www.simpubs.org
 [jzedward]: https://jzedwards.github.io
